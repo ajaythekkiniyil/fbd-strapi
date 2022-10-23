@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "singularName": "doctor",
+    "pluralName": "doctors",
+    "displayName": "doctor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "text"
+    },
+    "about": {
+      "type": "richtext"
+    },
+    "medicalQualification": {
+      "type": "richtext"
+    },
+    "specializationExpertise": {
+      "type": "richtext"
+    },
+    "awardsCertification": {
+      "type": "richtext"
+    },
+    "awards": {
+      "type": "richtext"
+    },
+    "awardsAchievements": {
+      "type": "richtext"
+    },
+    "professionalMembership": {
+      "type": "richtext"
+    },
+    "article": {
+      "type": "richtext"
+    },
+    "publication": {
+      "type": "richtext"
+    },
+    "experience": {
+      "type": "richtext"
+    },
+    "bookChapter": {
+      "type": "richtext"
+    },
+    "doctorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}
